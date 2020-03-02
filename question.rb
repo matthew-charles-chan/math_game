@@ -2,7 +2,7 @@ class Question
   attr_accessor :prompt, :answer
 
   def initialize
-    operators = [:+, :-, :*]
+    operators = [:+, :-, :*, :%]
     operator = operators.sample
     number1 = rand(1..20)
     number2 = rand(1..20)
