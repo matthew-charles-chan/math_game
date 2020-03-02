@@ -1,5 +1,5 @@
 class Player
-  attr_accessor :names, :lives
+  attr_accessor :name, :lives
 
   def initialize(name)
     @name = name
